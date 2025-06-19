@@ -1,1 +1,0 @@
-# logivad.github.io
