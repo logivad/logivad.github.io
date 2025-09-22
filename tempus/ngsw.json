@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1758550350188,
+  "index": "/tempus/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/tempus/chunk-BKTI4ZYJ.js",
+        "/tempus/chunk-PY5XGU7Z.js",
+        "/tempus/index.html",
+        "/tempus/main-G5SK2POX.js",
+        "/tempus/manifest.webmanifest",
+        "/tempus/styles-2RNRSR7H.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/tempus/favicon.png",
+        "/tempus/icons/icon-128x128.png",
+        "/tempus/icons/icon-144x144.png",
+        "/tempus/icons/icon-152x152.png",
+        "/tempus/icons/icon-192x192.png",
+        "/tempus/icons/icon-384x384.png",
+        "/tempus/icons/icon-512x512.png",
+        "/tempus/icons/icon-72x72.png",
+        "/tempus/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/tempus/chunk-BKTI4ZYJ.js": "51c0c9b84b1bca74f7b58f2caba6ad7017f8aa93",
+    "/tempus/chunk-PY5XGU7Z.js": "23d974b6221a7a6cdb01cbb34578703940ad2acc",
+    "/tempus/favicon.png": "6c1bc224181b81ea9e1be7f505a22718bfd02b2a",
+    "/tempus/icons/icon-128x128.png": "d38183722b2f317cd987e222f18cda8b954b8031",
+    "/tempus/icons/icon-144x144.png": "8f93a00da22088f319056b26b7fff38e7282fa4d",
+    "/tempus/icons/icon-152x152.png": "88edce1d3e4c21e79c68e818c169c776059e0cfe",
+    "/tempus/icons/icon-192x192.png": "012a05c0d4e79ca3fd8d6ec647203b2ceab976ac",
+    "/tempus/icons/icon-384x384.png": "705662fc22c39b57d18b3f56ae8669a8195af715",
+    "/tempus/icons/icon-512x512.png": "856690692d6417adc11bb0a175a97e0cf9504ada",
+    "/tempus/icons/icon-72x72.png": "5f0daecbaa1f46d011899ef4c7e8faaa874e6b8f",
+    "/tempus/icons/icon-96x96.png": "437157c6df601bfc2ca0ac11a699b4e5f3483d44",
+    "/tempus/index.html": "419dde75e1e24174dee44713812542f16a5c11a9",
+    "/tempus/main-G5SK2POX.js": "31aecc72a334793e79776c5a74757c2a50022518",
+    "/tempus/manifest.webmanifest": "0d58e8c139581aa9ad243465f18f813bb3e41566",
+    "/tempus/styles-2RNRSR7H.css": "bf9b1bf0e065e06e4dfe6f9b6adbed594e652e23"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
